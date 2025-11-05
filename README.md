@@ -62,6 +62,24 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
   - status  
   *Relationships:* Each payment is linked to one booking.
 
+## Feature Breakdown
+
+- **User Management**  
+  Allows users to create accounts, log in, and manage their profile information. This ensures that only registered users can book properties or leave reviews.  
+
+- **Property Management**  
+  Enables property owners to add, update, and delete their listings. Users can browse available properties with detailed descriptions and images.  
+
+- **Booking System**  
+  Lets users book available properties for specific dates. It tracks availability, prevents double bookings, and links bookings to users and properties.  
+
+- **Review System**  
+  Allows users to leave ratings and comments for properties they have stayed at. This helps maintain quality and provides feedback for property owners.  
+
+- **Payment Processing**  
+  Handles payments for bookings securely, recording payment status and linking transactions to bookings. This ensures smooth and reliable financial transactions.
+
+
 ## Team Roles
 
 - **Backend Developer**: Responsible for building and maintaining the server-side logic, APIs, and ensuring that the application works smoothly with the database and frontend.
