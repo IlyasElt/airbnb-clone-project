@@ -98,6 +98,13 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
   Validates and cleans incoming data to prevent security vulnerabilities like SQL injection or XSS attacks. This keeps the application and its users safe.
 
 
+## CI/CD Pipeline
+
+CI/CD (Continuous Integration / Continuous Deployment) pipelines automate the process of testing, building, and deploying the application. They help ensure that new code changes are reliable, reduce bugs, and speed up development.  
+
+Tools like **GitHub Actions** can be used to run automated tests and deploy code, while **Docker** can help package the application consistently across different environments. Using a CI/CD pipeline improves project quality, stability, and collaboration.
+
+
 ## Team Roles
 
 - **Backend Developer**: Responsible for building and maintaining the server-side logic, APIs, and ensuring that the application works smoothly with the database and frontend.
