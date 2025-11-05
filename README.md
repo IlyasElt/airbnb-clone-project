@@ -10,11 +10,14 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
 - Learn the basics of backend architecture and database design.
 - Document and plan project features and workflows.
 
-## Technologies
-- Python
-- Django
-- MySQL
-- Git & GitHub
+## Technology Stack
+
+- **Django**: A web framework for building RESTful APIs and handling server-side logic.  
+- **PostgreSQL**: A relational database used to store and manage application data securely.  
+- **GraphQL**: A query language for APIs that allows clients to request exactly the data they need.  
+- **Docker**: Containerization tool to package the application and its dependencies for easy deployment.  
+- **Git & GitHub**: Version control system and repository hosting service for tracking changes and collaboration.
+
 
 ## Team Roles
 
