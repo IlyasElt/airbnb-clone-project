@@ -16,5 +16,17 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
 - MySQL
 - Git & GitHub
 
+## Team Roles
+
+- **Backend Developer**: Responsible for building and maintaining the server-side logic, APIs, and ensuring that the application works smoothly with the database and frontend.
+
+- **Database Administrator (DBA)**: Manages the database, ensures data integrity, optimizes queries, and handles backups and security.
+
+- **Frontend Developer**: Implements the user interface and user experience, making sure the app looks good and is easy to use.
+
+- **Project Manager**: Oversees the project, coordinates the team, sets deadlines, and ensures that the project stays on track.
+
+- **QA Engineer / Tester**: Tests the application to find bugs, ensures the functionality works as expected, and maintains quality standards.
+
 ## Author
 - **ILYAS EL ATTAR**
