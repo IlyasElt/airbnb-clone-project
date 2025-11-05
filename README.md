@@ -18,6 +18,49 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
 - **Docker**: Containerization tool to package the application and its dependencies for easy deployment.  
 - **Git & GitHub**: Version control system and repository hosting service for tracking changes and collaboration.
 
+## Database Design
+
+### Entities and Fields
+
+- **Users**  
+  - id (primary key)  
+  - name  
+  - email  
+  - password  
+  - role  
+  *Relationships:* A user can have multiple properties and multiple bookings.  
+
+- **Properties**  
+  - id (primary key)  
+  - title  
+  - description  
+  - location  
+  - owner_id (foreign key to Users)  
+  *Relationships:* Each property belongs to a user (owner) and can have multiple bookings and reviews.  
+
+- **Bookings**  
+  - id (primary key)  
+  - property_id (foreign key to Properties)  
+  - user_id (foreign key to Users)  
+  - start_date  
+  - end_date  
+  *Relationships:* A booking belongs to one property and one user.  
+
+- **Reviews**  
+  - id (primary key)  
+  - property_id (foreign key to Properties)  
+  - user_id (foreign key to Users)  
+  - rating  
+  - comment  
+  *Relationships:* A review belongs to a property and a user.  
+
+- **Payments**  
+  - id (primary key)  
+  - booking_id (foreign key to Bookings)  
+  - amount  
+  - payment_date  
+  - status  
+  *Relationships:* Each payment is linked to one booking.
 
 ## Team Roles
 
