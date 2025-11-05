@@ -80,6 +80,24 @@ The goal is to build a simple clone of the Airbnb platform to learn about backen
   Handles payments for bookings securely, recording payment status and linking transactions to bookings. This ensures smooth and reliable financial transactions.
 
 
+## API Security
+
+- **Authentication**  
+  Ensures that only registered users can access protected endpoints by verifying their identity. This protects user accounts and sensitive data.  
+
+- **Authorization**  
+  Controls what actions each user can perform based on their role (e.g., user vs. property owner). This prevents unauthorized access to restricted resources.  
+
+- **Rate Limiting**  
+  Limits the number of requests a user can make in a given time. This helps prevent abuse and protects the server from being overloaded.  
+
+- **Data Encryption**  
+  Encrypts sensitive data, such as passwords and payment information, both in transit and at rest. This ensures user privacy and secures financial transactions.  
+
+- **Input Validation & Sanitization**  
+  Validates and cleans incoming data to prevent security vulnerabilities like SQL injection or XSS attacks. This keeps the application and its users safe.
+
+
 ## Team Roles
 
 - **Backend Developer**: Responsible for building and maintaining the server-side logic, APIs, and ensuring that the application works smoothly with the database and frontend.
